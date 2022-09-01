@@ -4,7 +4,7 @@ variable "aws_region" {
 }
 
 variable "key_name" {
-  description = "SSH keys to connect EC2"
+  description = "SSH keys to connect EC2 The way"
   default     =  "secure!randomvalues#"
 }
 
